@@ -25,6 +25,8 @@ You can preview the production build with `npm run preview`.
 
 ### lint and format commands:
 
+add --write command to format and lint
+
 ```shell
 "lint": "prettier --plugin-search-dir . --write . && eslint .",
 "format": "prettier --plugin-search-dir . --write .",
@@ -51,6 +53,4 @@ import { fileURLToPath } from 'node:url';
 
 to avoid ts errors install the types like so:
 
-```npm install @types/node --save-dev```
-
-
+`npm install @types/node --save-dev`
